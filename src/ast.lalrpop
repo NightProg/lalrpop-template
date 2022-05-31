@@ -1,0 +1,5 @@
+grammar;
+
+pub Hello: () = "hello" => {
+    println!("Hello, world!");
+};
